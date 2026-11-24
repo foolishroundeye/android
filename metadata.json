@@ -1,0 +1,6 @@
+{
+  "name": "cSploit Web - Advanced Network Security & Penetration Testing Suite",
+  "description": "Professional web-based port scanner, network radar, vulnerability finder, MITM framework, packet forger, login cracker, and Wi-Fi security auditing suite ported from cSploit.",
+  "request_permissions": [],
+  "capabilities": []
+}
