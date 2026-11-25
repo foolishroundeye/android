@@ -1,19 +1,15 @@
-# cSploit Web - Advanced Network Security & Penetration Testing Suite
+# cSploit v2.0 — Modernized Android Network Security & Diagnostics Suite
 
-[cSploit Web](https://www.csploit.org) is a professional, modern web-based network analysis and penetration testing suite ported from cSploit. It brings the full power of cSploit's Android security toolkit to modern browsers as a high-performance React application.
+Modernized native Android (Kotlin + Jetpack Compose + Material 3) rebuild of **cSploit**, updated for Android 14/15/16 (compileSdk 36, minSdk 24) with full non-root compatibility alongside root-mode hooks.
 
 ## Features
-
-* **Network Radar**: Subnet discovery (192.168.1.0/24), host fingerprinting, MAC vendor lookup, and OS detection.
-* **Port Scanner**: TCP/UDP port scanner with banner grabbing and service version identification.
-* **Vulnerability Finder**: Correlates target services with CVE records and Metasploit exploit modules.
-* **MITM Framework & Sniffer**: ARP spoofing controls, plaintext password sniffer, DNS spoofing rules, session hijacker, and HTTP traffic injection.
-* **Login Cracker**: Fast dictionary and brute-force service cracker (SSH, FTP, HTTP Basic Auth, Telnet, SMB).
-* **WiFi Keygen**: Wireless AP scanner and default router key generation algorithms.
-* **Packet Forger**: Raw TCP/UDP/ICMP packet crafting and transmission.
-* **Metasploit RPC**: Active session manager and interactive reverse shell terminal console.
-* **Terminal Console**: Real-time logging console with severity filters.
-
-## License
-
-GNU General Public License v3.0 (GPLv3).
+- **Network Radar**: Auto-detects local interface, IP, gateway, DNS, and subnet; supports custom host targets and subnet sweeps.
+- **Port Scanner**: Quick/Full/Banner profiles plus a live Android TCP socket & banner probe.
+- **Vulnerability & CVE Finder**: Correlates services with CVE records and launches Metasploit sessions.
+- **MITM Framework**: ARP spoof controls, credential sniffer, DNS spoof rules, cookie hijacker, and HTTP traffic injection.
+- **NetTools (New)**:
+  - **TLS/SSL Certificate Inspector** via `SSLSocketFactory` (protocol, cipher, X.509 issuer/subject, SHA-256 fingerprint)
+  - **DNS & HTTP Security Header Auditor** (HSTS, CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy)
+  - **TCP Latency & Reachability Monitor**
+  - **Markdown Security Audit Report Export & Share**
+- **Login Cracker (Hydra)**, **WiFi Keygen**, **Packet Forger** (with real `DatagramSocket` UDP dispatch), **Metasploit RPC Interactive Shell**, and **Terminal Console**.
